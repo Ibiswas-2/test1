@@ -251,14 +251,14 @@ function _margin(){return(
 function _style(html){return(
 html`<style>
 
-@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;1,100;1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;1,100;1,300&display=swap");
 
 body {
-  font-family: 'Montserrat Alternates', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight:400;
   font-size:13px;
   background-color:white;
-}
+} 
 
 svg {
   background-color:white;
@@ -269,7 +269,7 @@ svg {
 h1 {
   margin-top: 50;
   font-size: 1.3rem;
-  color:#f20666;
+  color:#00bcd4;
   margin-bottom: 50;
   font-weight:600;
 }
@@ -278,7 +278,7 @@ h2 {
   margin-top: 5px;
   font-size: 1rem;
   margin-bottom: 5px;
-  color:#f20666;
+  color:#00bcd4;
   font-weight:500;
 }
 
@@ -286,7 +286,7 @@ h3 {
   margin-top: 5px;
   font-size: 1rem;
   margin-bottom: 10px;
-  color:#f20666;
+  color:#00bcd4;
   font-weight:400;
 }
 
@@ -294,7 +294,7 @@ h4 {
   margin-top: 5px;
   font-size: 0.9rem;
   margin-bottom: 5px;
-  color:#f20666;
+  color:#00bcd4;
   font-weight:300;
 }
 
@@ -302,7 +302,7 @@ h5 {
   margin-top: 5px;
   font-size: 1rem;
   margin-bottom: 0px;
-  color:#f20666;
+  color:#00bcd4;
   font-weight:400;
 }
 
@@ -323,7 +323,7 @@ a:hover {
 /*Defining axis stylings*/
 
 .y_text, .x_text {
-  font-family:'Montserrat Alternates', sans-serif;
+  font-family:'Roboto', sans-serif;
   font-weight:600;
   font-size:12px;
   opacity:1;
@@ -346,7 +346,7 @@ a:hover {
 }
 
 .y-axis text, .x-axis text {
-  font-family:'Montserrat Alternates', sans-serif;
+  font-family:'Roboto', sans-serif;
   font-weight:500;
   font-size:12px;
   opacity:1;
@@ -356,14 +356,14 @@ a:hover {
 /*Defining chart stylings*/
 
 .tooltip {
-  font-family:'Montserrat Alternates', sans-serif;
+  font-family:'Roboto', sans-serif;
   font-weight:700;
   font-size:17px;
   fill:#f20666;
 }
 
 .tooltip2 {
-  font-family:'Montserrat Alternates', sans-serif;
+  font-family:'Roboto', sans-serif;
   font-weight:400;
   font-size:11px;
   fill:#f20666;
