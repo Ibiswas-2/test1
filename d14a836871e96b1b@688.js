@@ -1,7 +1,7 @@
 function _1(md){return(
 md`# SPOTIFY | ARTISTS INTERACTIVE | D3
 
-What characteristics contribute to the danceability of music? 👯
+What characteristics contribute to the danceability of music?
 
 This notebook aims to explore the connection between various audio features and the danceability of tracks by different artists.
 
