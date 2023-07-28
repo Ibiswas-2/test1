@@ -1,11 +1,11 @@
 function _1(md){return(
 md`# SPOTIFY | ARTISTS INTERACTIVE | D3
 
-What makes music danceable? 👯     
+What characteristics contribute to the danceability of music? 👯
 
-In order to answer this question, we will check in this notebook the relationship of different audio features with danceability by artist. 
+This notebook aims to explore the connection between various audio features and the danceability of tracks by different artists.
 
-Find out by selecting the corresponding audio feature in the drop-down menu and check out the relationship with "danceability". For detailed information about the artist hover over the points. 
+You can discover the relationship by selecting specific audio features from the drop-down menu and observing their correlation with "danceability." For more detailed information about each artist, simply hover over the data points. 
 
 
 
@@ -402,7 +402,7 @@ export default function define(runtime, observer) {
   const main = runtime.module();
   function toString() { return this.url; }
   const fileAttachments = new Map([
-    ["data_by_artist.csv", {url: new URL("./files/c0f4789f1c558bb279eac18307c588377c47aabe02c92ee08726664be78922b7408777639a72ecb2e5b38be2c731254e86a48eff44599f2f47b00e2f1ed84e63.csv", import.meta.url), mimeType: "text/csv", toString}]
+    ["data_by_artist.csv", {url: new URL("https://github.com/Ibiswas-2/test1/blob/main/c0f4789f1c558bb279eac18307c588377c47aabe02c92ee08726664be78922b7408777639a72ecb2e5b38be2c731254e86a48eff44599f2f47b00e2f1ed84e63.csv", import.meta.url), mimeType: "text/csv", toString}]
   ]);
   main.builtin("FileAttachment", runtime.fileAttachments(name => fileAttachments.get(name)));
   main.variable(observer()).define(["md"], _1);
