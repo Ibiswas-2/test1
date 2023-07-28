@@ -406,8 +406,8 @@ export default function define(runtime, observer) {
   const main = runtime.module();
   function toString() { return this.url; }
   const fileAttachments = new Map([
-    ["spoty3.jpeg", {url: new URL("https://github.com/Ibiswas-2/test1/blob/main/a3fce02ee517ac3dfcf9d6c7c24826e0abaa4bd34875aa8fb13b3552e9b87a675bdf873e7d44b90581de2787b0dd309ea51e94095b6543550c29d055349cff17.jpeg", import.meta.url), mimeType: "image/jpeg", toString}],
-    ["data_by_artist.csv", {url: new URL("https://github.com/Ibiswas-2/test1/blob/main/c0f4789f1c558bb279eac18307c588377c47aabe02c92ee08726664be78922b7408777639a72ecb2e5b38be2c731254e86a48eff44599f2f47b00e2f1ed84e63.csv", import.meta.url), mimeType: "text/csv", toString}]
+    ["spoty3.jpeg", {url: new URL("./a3fce02ee517ac3dfcf9d6c7c24826e0abaa4bd34875aa8fb13b3552e9b87a675bdf873e7d44b90581de2787b0dd309ea51e94095b6543550c29d055349cff17.jpeg", import.meta.url), mimeType: "image/jpeg", toString}],
+    ["data_by_artist.csv", {url: new URL("./c0f4789f1c558bb279eac18307c588377c47aabe02c92ee08726664be78922b7408777639a72ecb2e5b38be2c731254e86a48eff44599f2f47b00e2f1ed84e63.csv", import.meta.url), mimeType: "text/csv", toString}]
   ]);
   main.builtin("FileAttachment", runtime.fileAttachments(name => fileAttachments.get(name)));
   main.variable(observer()).define(["md"], _1);
