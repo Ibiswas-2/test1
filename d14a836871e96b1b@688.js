@@ -1,5 +1,5 @@
 function _1(md){return(
-md`# WHAT MAKES MUSIC DANCABLE D3 SPOTIFY VISUALIZATION
+md`# Dancability Of Music (D3 Visualization on Data from Spotify)
 
 What characteristics contribute to the danceability of music?
 
