@@ -327,7 +327,7 @@ a:hover {
   font-weight:600;
   font-size:12px;
   opacity:1;
-  fill:#f20666;
+  fill:#00bcd4;
 }
 
 .y-axis path, .x-axis path {
@@ -359,14 +359,14 @@ a:hover {
   font-family:'Roboto', sans-serif;
   font-weight:700;
   font-size:17px;
-  fill:#f20666;
+  fill:#00bcd4;
 }
 
 .tooltip2 {
   font-family:'Roboto', sans-serif;
   font-weight:400;
   font-size:11px;
-  fill:#f20666;
+  fill:#00bcd4;
 }
 
 circle {
